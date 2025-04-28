@@ -1,0 +1,70 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment files
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+eggs/
+lib/
+lib64/
+sdist/
+*.egg
+
+# PyInstaller
+#  Usually PyInstaller creates a build folder and a dist folder.
+#  You can ignore these folders if you are using PyInstaller.
+build/
+dist/
+
+# VSCode settings
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# AWS configuration files (if applicable)
+*.pem
+*.aws
+
+# Logs
+*.log
+
+# Local environment variables
+.env
+.env.local
+.env.*.local
+
+# Python testing / coverage
+.coverage
+.tox/
+.nox/
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+
+# Pipenv
+Pipfile.lock
+
+# Pytest cache
+.cache/
+
+# Pycharm
+.idea/
+
+# System files (macOS, Windows)
+.DS_Store
+Thumbs.db
+
